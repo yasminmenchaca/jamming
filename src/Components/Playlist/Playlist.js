@@ -8,7 +8,7 @@ class Playlist extends Component {
             <div>
                 <div className="Playlist">
                     <input value="New Playlist"/>
-                    {/*<TrackList/>*/}
+                    <TrackList tracks={this.props.playlistTracks}/>
                     <button className="Playlist-save">SAVE TO SPOTIFY</button>
                 </div>
             </div>
